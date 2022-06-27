@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <title>Animalesco</title>
+</head>
+<body>
+    
+    <section class="section">
+        <div class="container">
+            <div class="title--container d-flex justify-content-center">
+                <h1>Animalesco</h1>
+            </div>
+            <div class="image--container d-flex justify-content-center align-items-center">
+                <span class="simbolo">?</span>
+
+                <!-- pre loader -->
+                <span class="pre--loader hidden"></span>
+
+            </div>
+            <div class="content--container hidden">
+
+                <!-- pre loader -->
+                <span class="pre--loader hidden"></span>
+
+                <div class="content">
+                    <h3>Nome:</h3>
+                    <span id="name"></span>
+                    <h3>Tipo de Animal:</h3>
+                    <span id="animalType"></span>
+                    <h3>Tamanho maximo:</h3>
+                    <span id="maxLength"></span>
+                    <h3>Tamanho minimo:</h3>
+                    <span id="minLength"></span>
+                    <h3>Habitat:</h3>
+                    <span id="habitat"></span>
+                </div>
+            </div>
+            <div class="btn--container d-flex justify-content-center">
+                <button type="submit" id="btnEvent" class="btn btn-outline-success">Gerar Animal</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script/script.js"></script>
+
+</body>
+</html>
